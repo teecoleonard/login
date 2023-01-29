@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title> 
+    <link rel="stylesheet" href="_css/login.css">
+    <link rel="stylesheet" href="_css/media-query.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body class="bg-dark">
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Formulário</a>
+          <div class="navbar-expand" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Serviços</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <header class="bg-dark py-4 d-flex flex-column align-items-center">
+            <div class="text-white text-center w-50 mb-2" id="texto1">
+                <h1>A vida é uma vai e vem que não tem volta.</h1>
+                <p class="text-white-50 w-100">Como se escreve o número 0 em algarismos romanos?. Antes tarde do que mais tarde.. You say potatoe, I say starchy carbs. O álcool é o maior inimigo do homem... e o homem que foge de seus inimigos é um covarde!. A vida é uma sucessão de sucessivos que sucedem sucessivamente sem cessar..</p>
+            </div>
+        <div>
+            <button class="btn btn-primary">Começe Agora</button>
+            <button class="btn btn-outline-light">Leia Sobre</button>
+        </div>
+      </header>
+      <div class="direcionamento-do-carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="_img/hed1.jpg" class="d-block w-100" alt="header1">
+            </div>
+            <div class="carousel-item">
+              <img src="_img/hed2.jpg" class="d-block w-100" alt="header2">
+            </div>
+            <div class="carousel-item">
+              <img src="_img/header3.jpg" class="d-block w-100" alt="header3">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="main-login bg-dark p-3">
+        <div class="login">
+            <form action="login.php">
+            <div class="card-login bg-dark">
+                <h1>Faça o login</h1>
+                    <div class="textfield">
+                        <label for="usuario">Usuário</label>
+                        <input type="text" name="usuario" placeholder="">
+                    </div>
+                    <div class="textfield">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" placeholder="">
+                    </div>
+                    <input type="checkbox" name="check" value="1" checked> Continuar logado?
+                    <button class="btn-login" type="submit">Entrar</button>
+                      <a href="#" id="esqueceu">Esqueceu a senha?</a>
+                      <hr>
+                    <button class="btn-register" type="submit">Criar nova conta</button>
+                      </div>
+                </form>
+            </div>
+        </div>
+          <div class="card bg-dark">
+            <div class="card-body py-5">
+              <h3 class="text-center text-white"><b>Pay as you grow</b></h3>
+              <p class="text-center text-muted">With our no hassle princing plans</p>
+            </div>
+        <main class="container-fluid" id="container1">
+            <div class="row d-flex justify-content-center py-2">
+            <div class="col-3">
+              <div class="card py-4 px-2">
+                <div class="card-body">
+                  <h3 class="card-title small text-muted">
+                    <b>GRATUITO</b>
+                  </h5>
+                  <p class="card-text">
+                    <span class="display-5"><strong>$0</strong></span>
+                    <span class="text-muted">/mo.</span>
+                  </p>
+                  <ul class="list-unstyled check">
+                    <li class="mb-2">
+                      <i class="bi bi-check"></i>
+                      <strong>1 usuário</strong>
+                    </li>
+                    <li class="mb-2">
+                      <i class="bi bi-check"></i>
+                      5GB espaço
+                    </li>
+                    <li class="mb-2">
+                      <i class="bi bi-check"></i>
+                      Projetos publicos limitados
+                    </li>
+                    <li class="mb-2">
+                      <i class="bi bi-check"></i>
+                      Acesso a comunidade
+                    </li>
+                    <li class="mb-2 text-muted">
+                      <i class="bi bi-x"></i>
+                      Projetos privados ilimitados
+                    </li>
+                    <li class="mb-2 text-muted">
+                      <i class="bi bi-x"></i>
+                      Suporte dedicado
+                    </li>
+                    <li class="mb-2 text-muted">
+                      <i class="bi bi-x"></i>
+                      Dominio gratuito no Linked
+                    </li>
+                    <li class="mb-2 text-muted">
+                      <i class="bi bi-x"></i>
+                      Reporte mensal do servidor
+                    </li>
+                  </ul>
+                  <a href="#" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">Escolha seu plano</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card py-4 px-2">
+                <div class="card-body">
+                  <h3 class="card-title small">
+                    <i class="bi bi-star-fill" style="color: #e7bd01ec;"></i><b>PRO</b>
+                  </h5>
+                  <p class="card-text">
+                    <span class="display-5"><strong>$9</strong></span>
+                    <span class="text-muted">/mo.</span>
+                  </p>
+                  <ul class="list-unstyled check">
+                    <li class="mb-2">
+                      <i class="bi bi-check"></i>
+                      <strong>5 usuários</strong>
+                    </li>
+                    <li class="mb-2">
+                      <i class="bi bi-check"></i>
+                      5GB espaço
+                    </li>
+                    <li class="mb-2">
+                      <i class="bi bi-check"></i>
+                      Projetos publicos limitados
+                    </li>
+                    <li class="mb-2">
+                      <i class="bi bi-check"></i>
+                      Acesso a comunidade
+                    </li>
+                    <li class="mb-2">
+                      <i class="bi bi-check"></i>
+                      Projetos privados ilimitados
+                    </li>
+                    <li class="mb-2">
+                      <i class="bi bi-check"></i>
+                      Suporte dedicado
+                    </li>
+                    <li class="mb-2">
+                      <i class="bi bi-check"></i>
+                      Dominio gratuito no Linked
+                    </li>
+                    <li class="mb-2 text-muted">
+                      <i class="bi bi-x"></i>
+                      Reporte mensal do servidor
+                    </li>
+                  </ul>
+                  <a href="#" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">Escolha seu plano</a>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <form action="pagamento.php">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Dados do Cartão</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <form>
+                              <div class="mb-2 row">
+                                <label for="holder_name" class="form-label col-4">Nome do Cartão</label>
+                                <input name="holder_name" type="text" class="form-control col">
+                              </div>
+                              <div class="mb-2 row">
+                                <label for="card_number" class="form-label col-4">Número do Cartão</label>
+                                <input name="card_number" type="text" class="form-control col">
+                              </div>
+                              <div class="mb-2 row">
+                                <label for="expiration_date" class="form-label col-4">Data de Expiração</label>
+                                <input name="expiration_date" type="text" class="form-control col">
+                              </div>
+                              <div class="mb-2 row">
+                                <label for="cvv" class="form-label col-4">CVV</label>
+                                <input name="cvv" type="text" class="form-control col">
+                              </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Save changes</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card py-4 px-2">
+                <div class="card-body">
+                  <h3 class="card-title small text-muted">
+                    <b>EMPRESARIAL</b>
+                  </h5>
+                  <p class="card-text">
+                    <span class="display-5"><strong>$49</strong></span>
+                    <span class="text-muted">/mo.</span>
+                  </p>
+                  <ul class="list-unstyled check">
+                    <li class="mb-2">
+                      <i class="bi bi-check"></i>
+                      <strong>Usuários ilimitados</strong>
+                    </li>
+                    <li class="mb-2">
+                      <i class="bi bi-check"></i>
+                      5GB espaço
+                    </li>
+                    <li class="mb-2">
+                      <i class="bi bi-check"></i>
+                      Projetos publicos limitados
+                    </li>
+                    <li class="mb-2">
+                      <i class="bi bi-check"></i>
+                      Acesso a comunidade
+                    </li>
+                    <li class="mb-2">
+                      <i class="bi bi-check"></i>
+                      Projetos privados ilimitados
+                    </li>
+                    <li class="mb-2">
+                      <i class="bi bi-check"></i>
+                      Suporte dedicado
+                    </li>
+                    <li class="mb-2">
+                      <i class="bi bi-check"></i>
+                      Dominio gratuito no Linked
+                    </li>
+                    <li class="mb-2">
+                      <i class="bi bi-x"></i>
+                      Reporte mensal do servidor
+                    </li>
+                  </ul>
+                  <a href="#" id="btn_test" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">Escolha seu plano</a>
+                </div>
+              </div>
+            </div>
+            </div>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>    
+        <script>
+          variavelGlobal = 'Teste';
+        </script> 
+        <script>
+          var element = document.getElementById('btn_test');
+          element.addEventListener('click', () => alert(vetor[0]));
+        </script>
+        <script>
+          function showAlert(message, message2) {
+            console.log (message, message2)
+          }
+
+          vetor = [
+            'vetor1',
+            'vetor2',
+            'vetor3',
+            'vetor4'
+          ]
+          console.log(vetor);
+
+          showAlert('Mostrar mensagem', 'Mostrar mensagem2');
+        </script>
+  </body>
+</html>

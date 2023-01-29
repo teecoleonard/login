@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    background: #ffffff;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+div.direcionamento-do-carousel{
+    width: 50%; /* for example */
+    margin: auto;
+    padding: 25px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+    color: #BA68C8;
+    margin: 50px;
+}
+
+.main-login {
+    width: 100vw; /** viewport width**/
+    background: #ffffff;
+    display: flex;
+    justify-content: center; /** justificar no eixo X no centro **/
+    align-items: center; /** justificar no eixo Y no centro **/
+}
+
+.main-login > h1 {
+    font-size: 2vw;
+    color: #BA68C8;
+}
+
+.login {
+    width: 25vw;
+    align-items: center;
+}
+
+.card-login {
+    width: 100%; /** a porcentagem utilizado aqui é em relação a 60% do right-login que tem um viewport de 50w e 100h **/
+    justify-content: center;
+    text-align: center;
+    padding: 25px 35px; /** espaçamento do eixo x e y **/
+    border-radius: 20px; /** borda da div **/
+    box-shadow: 0px 10px 40px #00000056; /** eito x, cima e baixo, blur e cor **/
+    color: #ffffff;
+}
+
+.card-login > h1 {
+    color: #ffffff;
+    font-weight: 600; /** a grossura da forte, bold **/  
+    margin: 0;
+}
+
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /** quando utilizado o flex-direction para deixar um embaixo do outro o aligh-items passa a ser o eixo X e o justify-content passa a ser o eixo Y **/
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield > label {
+    color: #f2ffffde;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px; /** quando colocado apenas um valor ele é aplicado para todos os eixos **/
+    background-color: #ffffff;
+    color: #000000de; 
+    font-size: 10pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none; /** retira a caixa que está ao passar o mouse encima das caixas de texto de login **/
+    box-sizing: border-box; 
+}
+
+.textfield > input:placeholder {
+    color: #f2ffff94;
+}
+
+#esqueceu {
+    display: block;
+    text-align: right;
+    color: #ffffff  ;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 14px 0px;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase; /** transformar as letras em maiusculas **/
+    font-weight: 800;
+    letter-spacing: 3px; /** espaço entre as letras **/
+    color: #2b134b;
+    background-color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #9b9a9a;
+}
+
+.btn-register {
+    width: 50%;
+    padding: 14px 0px;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-weight: 800;
+    color: #2b134b;
+    background-color: #1abb22;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #117516;
+}

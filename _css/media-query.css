@@ -1,0 +1,120 @@
+/* 
+Pequenas telas: até 600px
+Celulares: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acim da 1200px
+*/
+@media only screen and (max-width: 1200px){
+    .card-login {
+        width: 85%;
+    }
+    .login{
+        width: 50%;
+        height: auto;
+        padding: 10px;
+        margin: 10px;
+    }
+    .card-login {
+        width: 100%;
+    }
+
+    .texto {
+        width: 100%;
+    }
+
+    .navbar-brand {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    .navbar-expand#navbarNav {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    #texto1 {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 950px){
+    .card-login {
+        width: 85%;
+    }
+    .login{
+        width: 50%;
+        height: auto;
+        padding: 10px;
+        margin: 10px;
+    }
+    .card-login {
+        width: 100%;
+    }
+
+    .texto {
+        width: 100%;
+    }
+
+    .navbar-brand {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    .navbar-expand#navbarNav {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    #texto1 {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main-login{
+        flex-direction: column;
+    }
+    .main-login > h1 {
+        display: none;
+    }
+    .login{
+        width: 85%;
+        height: auto;
+        padding: 10px;
+        margin: 10px;
+    }
+    .card-login {
+        width: 100%;
+    }
+
+    .texto {
+        width: 100%;
+    }
+
+    .navbar-brand {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    .navbar-expand#navbarNav {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    #texto1 {
+        width: 100%;
+        height: 100%;
+    }
+}
